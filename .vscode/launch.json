@@ -1,0 +1,28 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "flutterlogin",
+            "cwd": "flutterlogin",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "flutterlogin (profile mode)",
+            "cwd": "flutterlogin",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "flutterlogin (release mode)",
+            "cwd": "flutterlogin",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        }
+    ]
+}

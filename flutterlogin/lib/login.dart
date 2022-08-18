@@ -2,6 +2,7 @@ import 'dart:html';
 import 'dart:js_util';
 import 'dart:ui';
 import 'package:flutter/material.dart';
+import 'package:flutterlogin/ListAllTeams.dart';
 import 'package:flutterlogin/account.dart';
 
 class LoginPage extends StatefulWidget {
@@ -122,7 +123,9 @@ class _LoginPageState extends State<LoginPage> {
                     borderRadius: BorderRadius.circular(5),
                   ),
                 ),
-                onPressed: () {},
+                onPressed: () {
+                  Navigator.push(context, MaterialPageRoute(builder: (builder) => ListAllFootball()));
+                },
                 child: Text(
                   "LOGIN",
                   style: TextStyle(
